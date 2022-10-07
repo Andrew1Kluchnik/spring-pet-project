@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
-public class DefaultUserService {
+public class DefaultUserService implements UsersService {
     private final UserRepository userRepository;
     private final UserConverter userConverter;
 
